@@ -1,0 +1,1 @@
+# st-mary-s-senior-secondary-school
