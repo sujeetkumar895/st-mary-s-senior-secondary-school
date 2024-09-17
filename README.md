@@ -1,1 +1,1 @@
-# st-mary-s-senior-secondary-school
+# hello world
