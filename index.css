@@ -1,0 +1,152 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color:cyan;
+    color:crimson;
+    font-size:380%;
+    font-family:Algerian;
+}
+h2{
+    background-color:greenyellow;
+    font:rgb(23, 95, 23);
+    font-family:Algerian;
+}
+p{
+    font:black;
+}
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #23527c;
+}
+
+/* Hero Section Styles */
+
+#home {
+    background-image: linear-gradient(to bottom, #4df04d, #ccc);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#home h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#home button {
+    background-color: #337ab7;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#home button:hover {
+    background-color: #23527c;
+}
+
+/* About Us Section Styles */
+
+#about {
+    padding: 20px;
+}
+
+#about h2 {
+    margin-top: 0;
+}
+
+#about img {
+    width: 100%;
+    height: 500px;
+    margin: 20px 0;
+}
+
+/* Academics Section Styles */
+
+#academics {
+    padding: 20px;
+}
+
+#academics ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#academics li {
+    margin-bottom: 10px;
+}
+
+/* Contact Us Section Styles */
+
+#contact {
+    padding: 20px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#contact button[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#contact button[type="submit"]:hover {
+    background-color: #23527c;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    color: #666;
+}
+
+footer p {
+    margin: 0;
+}
